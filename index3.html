@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settlers Map</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        #gameContainer {
+            display: flex;
+            height: 100vh;
+        }
+        #sidebar {
+            width: 300px;
+            background-color: #1e293b;
+            padding: 1rem;
+            overflow-y: auto;
+        }
+        #gameArea {
+            flex-grow: 1;
+            position: relative;
+        }
+        #gameMap {
+            width: 100%;
+            height: 100%;
+        }
+        .accordion {
+            margin-bottom: 1rem;
+        }
+        .accordion-item {
+            margin-bottom: 0.5rem;
+        }
+        .accordion-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            background-color: #334155;
+            color: #f8fafc;
+            border: none;
+        }
+        .accordion-header:hover {
+            background-color: #475569;
+        }
+        .accordion-content {
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            background-color: #334155;
+        }
+        .building-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+        }
+        .building-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            background-color: #334155;
+            cursor: move;
+        }
+        .building-hex {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        .hex-container {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        .building-info {
+            margin-top: 0.5rem;
+        }
+        .building-name {
+            font-weight: bold;
+        }
+        .movement-controls {
+            position: absolute;
+            right: 1rem;
+            bottom: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .movement-button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #1e293b;
+            border: none;
+            color: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .movement-button:hover {
+            background-color: #334155;
+        }
+        .horizontal-controls {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .zoom-controls {
+            position: absolute;
+            right: 1rem;
+            bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .zoom-button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #1e293b;
+            border: none;
+            color: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .zoom-button:hover {
+            background-color: #334155;
+        }
+        .terrain-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+        }
+        .summary-box {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            background-color: #334155;
+        }
+        .summary-title {
+            margin-top: 0;
+        }
+        .summary-section {
+            margin-bottom: 1rem;
+        }
+        .summary-list {
+            padding: 0;
+            list-style: none;
+        }
+        .resource-summary {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .resource-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="sidebar">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="residential">
+                        <i class="fas fa-home"></i>
+                        <span>Residential</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="building-grid"></div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="commercial">
+                        <i class="fas fa-store"></i>
+                        <span>Commercial</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="building-grid"></div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="industrial">
+                        <i class="fas fa-industry"></i>
+                        <span>Industrial</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="building-grid"></div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="infrastructure">
+                        <i class="fas fa-road"></i>
+                        <span>Infrastructure</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="building-grid"></div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="public">
+                        <i class="fas fa-hospital"></i>
+                        <span>Public Services</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="building-grid"></div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <i class="fas fa-layer-group"></i>
+                        Terrain Types
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div id="terrainGrid" class="terrain-grid">
+                            <!-- Terrain items will be added here by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Summary Box -->
+            <div id="summaryBox" class="summary-box">
+                <h3 class="summary-title">Game Summary</h3>
+                <div class="summary-content">
+                    <div class="summary-section">
+                        <h4>Buildings</h4>
+                        <div id="buildingSummary" class="summary-list"></div>
+                    </div>
+                    <div class="summary-section">
+                        <h4>Resources</h4>
+                        <div class="resource-summary">
+                            <div class="resource-item">
+                                <i class="fas fa-coins"></i>
+                                <span id="goldCount">1000</span>
+                            </div>
+                            <div class="resource-item">
+                                <i class="fas fa-tree"></i>
+                                <span id="woodCount">500</span>
+                            </div>
+                            <div class="resource-item">
+                                <i class="fas fa-mountain"></i>
+                                <span id="stoneCount">300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gameArea">
+            <svg id="gameMap"></svg>
+            
+            <!-- Movement Controls -->
+            <div class="movement-controls">
+                <button class="movement-button" id="moveUp"><i class="fas fa-arrow-up"></i></button>
+                <div class="horizontal-controls">
+                    <button class="movement-button" id="moveLeft"><i class="fas fa-arrow-left"></i></button>
+                    <button class="movement-button" id="moveRight"><i class="fas fa-arrow-right"></i></button>
+                </div>
+                <button class="movement-button" id="moveDown"><i class="fas fa-arrow-down"></i></button>
+            </div>
+
+            <!-- Zoom Controls -->
+            <div class="zoom-controls">
+                <button class="zoom-button" id="zoomIn"><i class="fas fa-plus"></i></button>
+                <button class="zoom-button" id="zoomOut"><i class="fas fa-minus"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <template id="buildingTemplate">
+        <div class="building-item" draggable="true">
+            <div class="building-hex">
+                <div class="hex-container">
+                    <i class="fas"></i>
+                </div>
+            </div>
+            <div class="building-info">
+                <div class="building-name"></div>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

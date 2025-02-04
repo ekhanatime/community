@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekhana Community Portal</title>
+    <link rel="stylesheet" href="styles/cosmic.css">
+    <link rel="stylesheet" href="styles/tribe-modals.css">
+</head>
+<body>
+    <section class="quantum-genesis">
+        <div class="star-field"></div>
+        <div class="narrative-container">
+            <h1>"You are the universe experiencing itself"</h1>
+            <div class="tribe-grid">
+                <button class="tribe-card" onclick="openModal(1)">
+                    <img src="assets/tribes/roman.png" alt="Builders Tribe">
+                    <h3>Builders of Worlds</h3>
+                </button>
+                <button class="tribe-card" onclick="openModal(2)">
+                    <img src="assets/tribes/viking.png" alt="Keepers Tribe">
+                    <h3>Keepers of Memory</h3>
+                </button>
+                <button class="tribe-card" onclick="openModal(3)">
+                    <img src="assets/tribes/aztec.png" alt="Dreamers Tribe">
+                    <h3>Dreamers of Possibility</h3>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div id="tribeModal" class="cosmic-modal">
+        <div class="modal-event-horizon">
+            <div class="modal-content">
+                <!-- Modal content will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/scrollManager.js"></script>
+    <script src="scripts/modalSystem.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+project:
+  name: Ekhana Community Portal
+  version: 0.1.0
+  description: A transformative digital platform exploring consciousness and collective awakening
+
+components:
+  - name: Tribe Selection Interface
+    type: interactive-frontend
+    technologies:
+      - HTML5
+      - CSS3
+      - Vanilla JavaScript
+
+  - name: Scroll Management
+    type: user-experience
+    description: Parallax and interactive scroll effects
+
+  - name: Modal System
+    type: user-interaction
+    description: Dynamic tribe information display
+
+documentation:
+  generator: generate_all_docs.py
+  output_paths:
+    - system_diagrams
+    - html_docs
+    - api_reference
+    - component_docs
+
+contributors:
+  - role: Lead Developer
+    name: Anonymous
+    contact: not_provided@example.com
+
+license: Open Source
+repository: https://github.com/example/ekhana-community

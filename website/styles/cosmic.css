@@ -1,0 +1,95 @@
+/* Cosmic Genesis Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.quantum-genesis {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.star-field {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.6) 100%);
+    animation: star-drift 120s linear infinite;
+    z-index: -1;
+}
+
+@keyframes star-drift {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.narrative-container {
+    text-align: center;
+    z-index: 10;
+    transform-style: preserve-3d;
+    animation: cosmic-pulse 5s infinite alternate;
+}
+
+@keyframes cosmic-pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.02); }
+}
+
+.tribe-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.tribe-card {
+    background: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.tribe-card:hover {
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+.tribe-card img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.cosmic-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-event-horizon {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 0 50px rgba(255,255,255,0.1);
+}

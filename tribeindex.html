@@ -1,0 +1,36 @@
+<style>
+.quantum-genesis {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.star-field {
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  background: url('cosmic-noise.png'),
+    radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0) 70%);
+  animation: star-drift 120s linear infinite;
+}
+
+@keyframes star-drift {
+  from { transform: translateX(0) translateY(0); }
+  to { transform: translateX(-50%) translateY(-50%); }
+}
+
+.archetype-flow {
+  perspective: 100px;
+  height: 150vh;
+}
+
+.particle-stream {
+  transform-style: preserve-3d;
+  animation: particle-flow 40s linear infinite;
+}
+
+@keyframes particle-flow {
+  from { transform: translateZ(-50px); }
+  to { transform: translateZ(50px); }
+}
+</style>
