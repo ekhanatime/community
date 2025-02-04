@@ -1,0 +1,156 @@
+openapi: 3.0.0
+info:
+  title: Sustainable Village Planner API
+  description: API for managing buildings and resources in the Sustainable Village Planner game
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:5000
+    description: Development server
+
+paths:
+  /:
+    get:
+      summary: Root endpoint
+      description: Serves the main application or returns a welcome message
+      responses:
+        '200':
+          description: Successfully returns index.html or welcome message
+          content:
+            text/html:
+              schema:
+                type: string
+            text/plain:
+              schema:
+                type: string
+                example: Welcome to the Sustainable Village Planner API
+
+  /api/buildings:
+    get:
+      summary: Get all buildings
+      description: Returns a list of all buildings in the game
+      responses:
+        '200':
+          description: List of buildings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                      description: Unique identifier for the building
+                    code:
+                      type: string
+                      description: Building code (e.g., 'house_1')
+                    name:
+                      type: string
+                      description: Display name of the building
+                    type:
+                      type: string
+                      description: Type of building (e.g., 'residential')
+                    x:
+                      type: integer
+                      nullable: true
+                      description: X coordinate on the map
+                    y:
+                      type: integer
+                      nullable: true
+                      description: Y coordinate on the map
+                    created_at:
+                      type: string
+                      format: date-time
+                      description: When the building was created
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
+  /api/building-types:
+    get:
+      summary: Get available building types
+      description: Returns a list of all available building types
+      responses:
+        '200':
+          description: List of building types
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+                example: ['residential', 'agriculture', 'commercial']
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
+  /api/terrain_types:
+    get:
+      summary: Get available terrain types
+      description: Returns a list of all available terrain types
+      responses:
+        '200':
+          description: List of terrain types
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+                example: ['grass', 'water', 'mountain']
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
+components:
+  schemas:
+    Building:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: Unique identifier for the building
+        code:
+          type: string
+          description: Building code (e.g., 'house_1')
+        name:
+          type: string
+          description: Display name of the building
+        type:
+          type: string
+          description: Type of building (e.g., 'residential')
+        x:
+          type: integer
+          nullable: true
+          description: X coordinate on the map
+        y:
+          type: integer
+          nullable: true
+          description: Y coordinate on the map
+        created_at:
+          type: string
+          format: date-time
+          description: When the building was created
+      required:
+        - code
+        - name
+        - type
