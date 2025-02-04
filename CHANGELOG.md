@@ -73,6 +73,12 @@
   - Node.js build and test pipeline
   - Automated package publishing to GitHub Packages
 - Package configuration for GitHub Packages registry
+- Database initialization script (`init_db.py`) for setting up SQLite database
+- SQL schema file (`schema.sql`) defining the database structure
+- Test suite for Python API endpoints
+- Test suite for Vue.js components
+- Vue.js test dependencies for component testing
+- Basic building types: residential, agriculture, commercial
 
 ### Changed
 - Updated building placement system to handle both buildings and infrastructure
@@ -91,6 +97,9 @@
 - Improved project documentation and organization
 - Updated package.json with proper GitHub Packages configuration
 - Standardized Python dependencies with updated requirements.txt
+- Simplified API endpoints to match current database schema
+- Updated Python dependencies in requirements.txt
+- Improved test coverage for API endpoints
 
 ### Fixed
 - Building placement on water tiles now properly restricted
@@ -103,6 +112,10 @@
 - Infrastructure edge connection system
 - Accordion menu functionality
 - API endpoint responses with proper logging
+- Database schema issues with building types
+- Vue.js component test setup
+- API endpoint response formats
+- Test environment configuration
 
 ### Removed
 - Separate Git repositories for individual components
