@@ -68,6 +68,11 @@
 - Comprehensive root README.md with project vision and structure
 - Project-wide Git repository structure
 - Unified directory organization for all Ekhana components
+- GitHub Actions workflows for CI/CD:
+  - Python application testing and linting
+  - Node.js build and test pipeline
+  - Automated package publishing to GitHub Packages
+- Package configuration for GitHub Packages registry
 
 ### Changed
 - Updated building placement system to handle both buildings and infrastructure
@@ -84,6 +89,8 @@
 - Reorganized repository structure to include all components
 - Consolidated area_planner into main repository
 - Improved project documentation and organization
+- Updated package.json with proper GitHub Packages configuration
+- Standardized Python dependencies with updated requirements.txt
 
 ### Fixed
 - Building placement on water tiles now properly restricted
@@ -107,6 +114,9 @@
 - Enhanced building data structure
 - Updated database schema for terrain and buildings
 - Implemented proper drag-and-drop handling
+- Added GitHub Actions for automated testing and deployment
+- Configured npm publishing to GitHub Packages
+- Set up Python linting and testing pipeline
 
 ## [1.1.0] - 2025-02-01
 
