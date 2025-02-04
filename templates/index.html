@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sustainable Village Planner</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #controls {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(255,255,255,0.9);
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <button onclick="addSolarPanel()">Add Solar Panel</button>
+        <button onclick="addMicroHouse()">Add Micro House</button>
+    </div>
+    <script src="/static/js/area_planner.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</body>
+</html>
