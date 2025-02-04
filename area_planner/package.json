@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
+    "@vue/compiler-dom": "^3.3.4",
+    "@vue/server-renderer": "^3.3.4",
     "@vue/test-utils": "^2.4.1",
     "vite": "^4.4.6",
     "vitest": "^0.34.6",

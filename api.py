@@ -47,8 +47,12 @@ def get_db():
 @app.route('/')
 def root():
     try:
-        app.logger.info("Serving index.html")
-        return send_from_directory('.', 'index.html')
+        if os.path.exists('area_planner/dist/index.html'):
+            return send_from_directory('area_planner/dist', 'index.html')
+        elif os.path.exists('area_planner/index.html'):
+            return send_from_directory('area_planner', 'index.html')
+        else:
+            return 'Welcome to the Sustainable Village Planner API', 200
     except Exception as e:
         app.logger.error(f"Error serving index.html: {str(e)}\n{traceback.format_exc()}")
         return jsonify({"error": str(e)}), 500
@@ -61,6 +65,30 @@ def serve_static(path):
     except Exception as e:
         app.logger.error(f"Error serving static file {path}: {str(e)}\n{traceback.format_exc()}")
         return jsonify({"error": str(e)}), 404
+
+@app.route('/api/buildings', methods=['GET'])
+def get_buildings():
+    try:
+        db = get_db()
+        cursor = db.cursor()
+        cursor.execute('SELECT * FROM buildings')
+        buildings = cursor.fetchall()
+        return jsonify([dict(b) for b in buildings])
+    except Exception as e:
+        app.logger.error(f"Error in get_buildings: {str(e)}")
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/building-types', methods=['GET'])
+def get_building_types():
+    try:
+        return jsonify([
+            'residential',
+            'agriculture',
+            'commercial'
+        ])
+    except Exception as e:
+        app.logger.error(f"Error in get_building_types: {str(e)}")
+        return jsonify({"error": str(e)}), 500
 
 @app.route('/api/terrain_types')
 def get_terrain_types():
@@ -79,48 +107,6 @@ def get_terrain_types():
         return jsonify(terrain_types)
     except Exception as e:
         app.logger.error(f"Error in get_terrain_types: {str(e)}\n{traceback.format_exc()}")
-        return jsonify({"error": str(e)}), 500
-
-@app.route('/api/buildings')
-def get_buildings():
-    try:
-        app.logger.info("Fetching buildings...")
-        app.logger.debug(f"Request headers: {dict(request.headers)}")
-        
-        db = get_db()
-        cursor = db.cursor()
-        
-        app.logger.debug("Executing buildings query...")
-        cursor.execute('''
-            SELECT b.*, 
-                   GROUP_CONCAT(bc.resource_type || ':' || bc.amount) as costs
-            FROM buildings b
-            LEFT JOIN building_costs bc ON b.code = bc.building_code
-            GROUP BY b.code
-        ''')
-        
-        buildings = []
-        for row in cursor.fetchall():
-            building = dict(row)
-            
-            # Parse costs into a dictionary
-            costs = {}
-            if building['costs']:
-                for cost in building['costs'].split(','):
-                    resource_type, amount = cost.split(':')
-                    costs[resource_type] = int(amount)
-            
-            building['cost'] = costs
-            del building['costs']
-            buildings.append(building)
-            
-        db.close()
-        
-        app.logger.info(f"Found {len(buildings)} buildings")
-        app.logger.debug(f"Building details: {buildings}")
-        return jsonify(buildings)
-    except Exception as e:
-        app.logger.error(f"Error in get_buildings: {str(e)}\n{traceback.format_exc()}")
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
