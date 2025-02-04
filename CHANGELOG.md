@@ -65,6 +65,9 @@
   - Infrastructure edge placement system
   - Pan and zoom controls
   - Resource cost display with icons
+- Comprehensive root README.md with project vision and structure
+- Project-wide Git repository structure
+- Unified directory organization for all Ekhana components
 
 ### Changed
 - Updated building placement system to handle both buildings and infrastructure
@@ -78,6 +81,9 @@
 - Improved infrastructure placement with edge highlighting
 - Enhanced UI with compact building items
 - Streamlined terrain generation
+- Reorganized repository structure to include all components
+- Consolidated area_planner into main repository
+- Improved project documentation and organization
 
 ### Fixed
 - Building placement on water tiles now properly restricted
@@ -90,6 +96,10 @@
 - Infrastructure edge connection system
 - Accordion menu functionality
 - API endpoint responses with proper logging
+
+### Removed
+- Separate Git repositories for individual components
+- Duplicate README files and documentation
 
 ### Technical
 - Added detailed logging to API endpoints
@@ -130,3 +140,13 @@
 - Resource management
 - Edge-based infrastructure
 - Simple cost system
+
+## [0.1.0] - 2024-02-04
+
+### Added
+- Initial area_planner application
+  - Flask backend with SQLite database
+  - Vue.js frontend with 3D visualization
+  - Building placement and sustainability metrics
+- Basic website structure
+- Game server implementation
