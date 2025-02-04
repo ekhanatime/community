@@ -1,5 +1,9 @@
 # 🌍 Welcome to Ekhana
 
+This would we the place where people can create their villages, add modules for power, make co-working hubs, and share their skills and knowledge with eachother. And yes, we could even set this up to create real life villages, by finding developers that would have modular options, and others being able to deliver their modules, to a growing platform.
+
+The online builder should be released and should mirror a VR world, with the same villages and people, we just want to unite everyone.
+
 A global movement for shared communities, digital connection, and sustainable living.
 Ekhana is more than a project—it's a vision for a world where people come together to create, share, and build both physical and digital communities. We believe in collaboration over competition, sustainability over waste, and unity over isolation.
 
