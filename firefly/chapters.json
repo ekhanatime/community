@@ -1,0 +1,32 @@
+{
+    "chapters": [
+        {
+            "id": "chapter1",
+            "title": "Solformørkelsens Barn",
+            "image": "Firefly A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes, pro.jpg",
+            "file": "../stories/skyggespillet_chapter1.md",
+            "quote": "I det totale mørket, akkurat idet månen fullstendig dekket solen, kom Leon til verden."
+        },
+        {
+            "id": "chapter2",
+            "title": "De Første Ordene",
+            "image": "Firefly A kindergarten classroom with a young boy sitting under a large window, colorful auras visib.jpg",
+            "file": "../stories/skyggespillet_chapter2.md",
+            "quote": "Han var ikke som de andre barna – ikke på en problematisk måte, men på en måte som fikk henne til å føle seg både fascinert og litt urolig."
+        },
+        {
+            "id": "chapter3",
+            "title": "Skyggenes Hvisken",
+            "image": "Firefly An old Norwegian café interior with snow falling outside frosted windows, an elderly woman i.jpg",
+            "file": "../stories/skyggespillet_chapter3.md",
+            "quote": "De som trives i skyggene, som nærer seg på andres lys. De lever blant oss, men de er ikke som oss."
+        },
+        {
+            "id": "chapter4",
+            "title": "Våknernes Arv",
+            "image": "Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores (2).jpg",
+            "file": "../stories/skyggespillet_chapter4.md",
+            "quote": "I hver generasjon fødes noen få med Synet. Men styrken varierer. Noen ser bare glimt, andre ser mer. Leon... Leon ser alt."
+        }
+    ]
+}
