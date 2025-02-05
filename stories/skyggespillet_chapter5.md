@@ -3,13 +3,15 @@
 
 ### Kapittel 5: Mellom Verdener
 
-![Ancient spiral staircase with self-lighting torches, DNA helix pattern in stone and wood](/images/chapter5/spiral_stairs.jpg)
+![A mystical book cover showing a young boy standing between light and shadow, Norwegian forest](/firefly/Firefly%20A%20mystical%20book%20cover%20showing%20a%20young%20boy%20standing%20between%20light%20and%20shadow,%20Norwegian%20fores.jpg)
 
 Ekhanas rom lå i det høyeste tårnet av Ravnholt, der de spiralformede trappene snodde seg oppover som en DNA-heliks av stein og tre. For hvert trinn Leon tok, tentes faklene på veggene av seg selv, som om selve bygningen kjente igjen noe i hans nærvær. Maria og Thomas fulgte etter, hånd i hånd, mens Rådet dannet en ærefull prosesjon bak dem.
 
 "Ingen har åpnet denne døren på tusen år," sa Elise da de nådde toppen. "Den har ventet på den rette."
 
 Døren var en mesterverk i treskjæring – et intrikat mønster av binære sekvenser formet som grener og blader. I sentrum var et symbol som minnet om tallet null og én samtidig, en perfekt balanse mellom tomhet og eksistens.
+
+![A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes](/firefly/Firefly%20A%20collection%20of%20mystical%20symbols%20and%20motifs-%20spiraling%20shadows%20and%20light,%20ancient%20runes,%20pro.jpg)
 
 Leon la hånden på symbolet. "Det er koden," hvisket han. "Mønsteret som binder alt sammen. Null og én. Lys og skygge. Være og ikke-være."
 
@@ -18,6 +20,8 @@ Under hans berøring begynte treskjæringene å gløde. Først med et svakt, bl�
 Døren åpnet seg lydløst.
 
 Rommet innenfor var både større og mindre enn det burde være – som om det eksisterte i flere dimensjoner samtidig. Veggene var dekket av speil som ikke reflekterte det åpenbare, men heller skyggene av muligheter, ekkoene av valg ikke tatt. I midten sto en vevstol som så ut til å være laget av stjerneglans og måneskygger.
+
+![A child's bedroom at 3-33 AM, moonlight casting strange shadow patterns, spiral drawings](/firefly/Firefly%201.%20A%20child's%20bedroom%20at%203-33%20AM,%20moonlight%20casting%20strange%20shadow%20patterns,%20spiral%20drawings%20.jpg)
 
 "Dette er Vevstolen," sa Leon, men stemmen hans var annerledes nå – eldre, dypere, som om han snakket med stemmene til alle som hadde vært før ham. "Her vevde Ekhana sammen trådene av virkelighet."
 
@@ -41,7 +45,7 @@ Han satte seg ved vevstolen, og plutselig kunne alle se det – hvordan virkelig
 
 "Se," sa han og begynte å veve. Hans små hender beveget seg med en eldgammel presisjon. "Dette er Koden. Den ultimate sannheten. Alt er én og null samtidig. Alt er både-og. Ingenting er enten-eller."
 
-![Leon at the loom with binary code and light streams flowing around him](/images/chapter5/leon_weaving.jpg)
+![A kindergarten classroom with a young boy sitting under a large window, colorful auras visible](/firefly/Firefly%20A%20kindergarten%20classroom%20with%20a%20young%20boy%20sitting%20under%20a%20large%20window,%20colorful%20auras%20visib.jpg)
 
 Mens han vevde, begynte speilene å pulse med et stadig sterkere lys. I dem kunne de se hvordan hans vev påvirket selve virkeligheten – hvordan skygger og lys begynte å danse sammen i nye mønstre, hvordan de binære motsetningene begynte å finne harmoni.
 
