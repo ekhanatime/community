@@ -3,6 +3,8 @@
 
 ### Kapittel 5: Mellom Verdener
 
+![Ancient spiral staircase with self-lighting torches, DNA helix pattern in stone and wood](/images/chapter5/spiral_stairs.jpg)
+
 Ekhanas rom lå i det høyeste tårnet av Ravnholt, der de spiralformede trappene snodde seg oppover som en DNA-heliks av stein og tre. For hvert trinn Leon tok, tentes faklene på veggene av seg selv, som om selve bygningen kjente igjen noe i hans nærvær. Maria og Thomas fulgte etter, hånd i hånd, mens Rådet dannet en ærefull prosesjon bak dem.
 
 "Ingen har åpnet denne døren på tusen år," sa Elise da de nådde toppen. "Den har ventet på den rette."
@@ -23,7 +25,11 @@ Han gikk frem til vevstolen og rørte ved trådene som hang der, fortsatt skinne
 
 "Jeg forstår nå," sa han. "Ekhana var ikke bare én person. Hun var den første som forsto Koden – den universelle sannheten om at alt er både null og én samtidig. Hun var den første som så at virkeligheten selv er en kvantedans mellom væren og ikke-væren."
 
-Plutselig fyltes rommet med et merkelig lys, og i speilene begynte bilder å forme seg – ikke refleksjoner, men vinduer inn til andre tider, andre steder. De så Ekhana selv, en kvinne med hår av stjerneglans, som sto ved den samme vevstolen. De så hvordan hun oppdaget Mønsteret i alt – i lysets dans, i skyggenes hvisking, i menneskers hjerter.
+Plutselig fyltes rommet med et merkelig lys, og i speilene begynte bilder å forme seg – ikke refleksjoner, men vinduer inn til andre tider, andre steder. De så Ekhana selv, en kvinne med hår av stjerneglans, som sto ved den samme vevstolen.
+
+![Ekhana with starlight hair at the cosmic loom, weaving reality](/images/chapter5/ekhana_weaving.jpg)
+
+De så hvordan hun oppdaget Mønsteret i alt – i lysets dans, i skyggenes hvisking, i menneskers hjerter.
 
 "Hun forsto at Skyggefolket ikke var fiender," fortsatte Leon. "De var den andre siden av ligningen. Uten null, ingen én. Uten skygge, intet lys. Men de glemte dette. De trodde de kunne eksistere alene, at de kunne sluke alt lys og herske i et univers av bare skygger."
 
@@ -35,9 +41,13 @@ Han satte seg ved vevstolen, og plutselig kunne alle se det – hvordan virkelig
 
 "Se," sa han og begynte å veve. Hans små hender beveget seg med en eldgammel presisjon. "Dette er Koden. Den ultimate sannheten. Alt er én og null samtidig. Alt er både-og. Ingenting er enten-eller."
 
+![Leon at the loom with binary code and light streams flowing around him](/images/chapter5/leon_weaving.jpg)
+
 Mens han vevde, begynte speilene å pulse med et stadig sterkere lys. I dem kunne de se hvordan hans vev påvirket selve virkeligheten – hvordan skygger og lys begynte å danse sammen i nye mønstre, hvordan de binære motsetningene begynte å finne harmoni.
 
 Men da, som et ekko fra dypet, kom lyden av knust glass. Et av speilene sprakk, og ut av sprekken strømmet en mørk tåke – Skyggefolket, i sin reneste form.
+
+![Shadow beings emerging from cracked mirror while binary light dances](/images/chapter5/shadow_emergence.jpg)
 
 "DE KOMMER," runget en stemme gjennom rommet – Ekhanas stemme, bevart i selve veggene. "MEN DENNE GANGEN ER VI KLARE. VEVEREN ER HER."
 
@@ -49,11 +59,15 @@ Hans stemme var som digital musikk, som matematikkens poesi. "I begynnelsen var 
 
 Steinen i hans hånd eksploderte i et lysglimt, men ikke utover – innover, som et sort hull av ren informasjon. Og i det øyeblikket forsto alle i rommet den dypeste sannheten: at virkeligheten selv var en simulering av uendelige muligheter, en dans mellom være og ikke-være, en evig vev av valg og konsekvenser.
 
+![Leon transforming into pure light and binary code](/images/chapter5/leon_transformation.jpg)
+
 Skyggene stoppet. De lyttet. For første gang på tusen år, lyttet de.
 
 "Vi er alle ett," sa Leon, hans stemme nå som ren kildekode. "Null og én. Lys og skygge. Algoritme og kaos. Dette er Skyggespillet – ikke en kamp, men en dans. Ikke et valg, men en syntese."
 
 Og mens han snakket, begynte virkeligheten selv å rekonfigurere seg. Binære sekvenser danset gjennom luften som nordlys, vevende sammen en ny forståelse, en ny virkelighet der motsetninger ikke lenger var motsetninger, men deler av samme kode.
+
+![Northern lights made of binary code weaving new reality](/images/chapter5/binary_aurora.jpg)
 
 I dette øyeblikket av singularitet, av total forening mellom null og én, mellom lys og skygge, mellom fortid og fremtid, sto Leon – et barn med universets eldste sannhet i sine øyne.
 
@@ -102,6 +116,8 @@ Det bare begynner på nytt, hver gang litt annerledes, hver gang litt dypere, hv
 "Skal vi danse?" hvisket han til universet.
 
 Og universet, som alltid, svarte med en ny soloppgang.
+
+![New dawn with binary code in sunlight](/images/chapter5/binary_sunrise.jpg)
 
 ---
 
