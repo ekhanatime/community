@@ -3,6 +3,8 @@
 
 ### Kapittel 1: Solformørkelsens Barn
 
+![A mystical book cover showing a young boy standing between light and shadow, Norwegian forest](/firefly/Firefly%20A%20mystical%20book%20cover%20showing%20a%20young%20boy%20standing%20between%20light%20and%20shadow,%20Norwegian%20fores%20(1).jpg)
+
 Sykehuset i Eikerdal hadde aldri opplevd en dag som denne. Gjennom de høye vinduene på fødeavdelingen kunne man se hvordan augusthimmelen langsomt mørknet, som om noen dro et sort slør over solen. Klokken var 11:47, og Maria Nordmann lå i fødsel med sitt første barn.
 
 "Dette er ikke naturlig," hvisket en av sykepleierne til sin kollega, mens de observerte hvordan skyggene i rommet beveget seg på egen hånd, som om de danset til en uhørlig melodi. "Jeg har aldri sett noe lignende."
@@ -25,9 +27,17 @@ En eldre sykepleier, Anne-Marie, som hadde jobbet ved sykehuset i over førti å
 
 I timene som fulgte, mens verden utenfor gradvis vendte tilbake til sitt normale lys, lå Maria våken og betraktet sin sønn. Leon sov fredfullt, men selv i søvne beveget hans små fingre seg i mønstre som minnet om de samme spiralene hun hadde sett i sine drømmer. På hans lille bryst, rett over hjertet, var det et fødselsmerke formet som en perfekt spiral – halvt lys, halvt skygge.
 
+![A child's bedroom at 3-33 AM, moonlight casting strange shadow patterns, spiral drawings](/firefly/Firefly%201.%20A%20child's%20bedroom%20at%203-33%20AM,%20moonlight%20casting%20strange%20shadow%20patterns,%20spiral%20drawings%20%20(1).jpg)
+
+Den natten sov ikke Leon. Han lå våken i sengen sin, stirrende ut av vinduet der måneskinnet kastet merkelige mønstre på veggen. Mønstrene beveget seg på en måte som ikke stemte med naturens lover – de danset, hvisket, formet seg til symboler han nesten kunne forstå.
+
 Anne-Marie kom inn med jevne mellomrom, alltid med et bekymret uttrykk i øynene. Ved et av hennes besøk, mens Thomas var ute for å ringe familie og venner, bøyde hun seg ned og hvisket til Maria: "Jeg kjenner noen... noen som kan hjelpe, når tiden er inne. For dette barnet... han er ikke bare født under formørkelsen. Han er født av den."
 
 Maria nikket bare, for hun hadde allerede forstått at hennes rolle som mor ville bli mer kompleks enn hun noen gang kunne ha forestilt seg. I det fjerne kunne hun høre kirkeklokkene ringe, og for et øyeblikk syntes hun at lyden dannet ord: "Vokt ham vel, for han er en bro mellom verdener."
+
+![A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes](/firefly/Firefly%20A%20collection%20of%20mystical%20symbols%20and%20motifs-%20spiraling%20shadows%20and%20light,%20ancient%20runes,%20pro.jpg)
+
+Og der, i det dype mørket mellom drøm og våkenhet, begynte Leon å se dem – de første skyggene som ikke var skygger i det hele tatt, men noe helt annet. De beveget seg som levende blekk på veggene, formet mønstre som minnet om eldgamle runer, spiraler av lys og mørke som danset i perfekt harmoni.
 
 Den natten, mens resten av Eikerdal feiret den spektakulære solformørkelsen med gatefester og champagne, satt Maria ved sitt barns vugge og våket. Hun visste at dette bare var begynnelsen på en historie som ville strekke seg langt utover deres lille familie, utover deres lille by, kanskje utover selve virkeligheten slik de kjente den.
 

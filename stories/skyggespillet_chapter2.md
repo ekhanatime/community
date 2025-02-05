@@ -3,6 +3,8 @@
 
 ### Kapittel 2: De Første Ordene
 
+![A mystical book cover showing a young boy standing between light and shadow, Norwegian forest](/firefly/Firefly%20A%20mystical%20book%20cover%20showing%20a%20young%20boy%20standing%20between%20light%20and%20shadow,%20Norwegian%20fores%20(2).jpg)
+
 Barnehagen Solstrålen lå som et fargerikt smykke mellom de gamle grantrærne i utkanten av Eikerdal. På denne høstmorgenen var luften krystallklar, og rimfrosten glitret på gresset som tusener av bittesmå diamanter. Leon, nå fire år gammel, sto ved porten og holdt sin mors hånd, mens hans uvanlige øyne tok inn scenen foran dem.
 
 "Se, mamma," hvisket han, pekende mot et område der ingen andre kunne se noe spesielt. "Lysfolket danser med bladene."
@@ -27,7 +29,9 @@ Stillheten som fulgte var tung som bly. Ingrid ble blek, og Maria kunne se hvord
 
 Maria møtte hennes blikk, usikker på hvor mye hun skulle dele. "Leon ser... ting. Ting andre ikke kan se."
 
-Inne i barnehagen utviklet dagen seg som et maleri i bevegelse. Leon satt ofte for seg selv, tegnet eller observerte de andre barna med et blikk som virket århundrer gammelt. De andre barna trakk seg instinktivt unna ham, ikke av frykt, men av en slags ærbødig respekt som var høyst uvanlig for fireåringer.
+I barnehagen satt Leon ofte alene ved vinduet, fascinert av hvordan sollyset brøt gjennom glasset og dannet regnbuer på gulvet. De andre barna så bare farger, men Leon så noe mer – han så hvordan fargene hadde sine egne personligheter, sine egne historier.
+
+![A kindergarten classroom with a young boy sitting under a large window, colorful auras visible](/firefly/Firefly%20A%20kindergarten%20classroom%20with%20a%20young%20boy%20sitting%20under%20a%20large%20window,%20colorful%20auras%20visib%20(1).jpg)
 
 Under frilek i hagen oppdaget Ingrid at blomstene syntes å vende seg mot Leon hvor enn han gikk, som om han var deres egen private sol. Og når han snakket med dem – for han snakket ofte med planter – kunne hun sverge på at de beveget seg uten vind.
 
@@ -36,6 +40,10 @@ Ved lunsjtid samlet barna seg rundt bordene. Leon satt ved siden av Emma, en sti
 "Du trenger ikke være redd lenger," sa han med sin klare barnestemme. "Din bestefar passer på deg. Han står rett der." Han pekte mot et tomt hjørne av rommet.
 
 Emma, som hadde mistet sin bestefar bare uker tidligere, begynte å gråte. Men det var ikke tårer av sorg – hun smilte gjennom tårene. "Jeg vet," hvisket hun. "Jeg kan kjenne ham når du er i nærheten."
+
+Om natten, når månen var full, tegnet Leon spiraler og mønstre i notatboken sin. Det var som om hendene hans beveget seg av seg selv, guidet av en kraft han ikke helt forsto. Mønstrene lignet på dem han så i skyggene, men også på noe mer – noe eldgammelt og mystisk.
+
+![A child's bedroom at 3-33 AM, moonlight casting strange shadow patterns, spiral drawings](/firefly/Firefly%201.%20A%20child's%20bedroom%20at%203-33%20AM,%20moonlight%20casting%20strange%20shadow%20patterns,%20spiral%20drawings%20%20(2).jpg)
 
 Senere den ettermiddagen, mens barna lekte ute, trakk Ingrid Maria til side. "Det er noe med Leon... noe spesielt. Jeg har aldri sett maken. Det er som om han ser rett gjennom mennesker, rett inn i deres sjeler."
 

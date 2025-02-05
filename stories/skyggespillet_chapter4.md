@@ -3,6 +3,8 @@
 
 ### Kapittel 4: Våknernes Arv
 
+![A mystical book cover showing a young boy standing between light and shadow, Norwegian forest](/firefly/Firefly%20A%20mystical%20book%20cover%20showing%20a%20young%20boy%20standing%20between%20light%20and%20shadow,%20Norwegian%20fores.jpg)
+
 Snøstormen som fulgte dem på veien til Ravnholt herregård var ikke naturlig. Maria visste det nå – kunne se det i måten snøfnuggene danset mot vindretningen, hvordan de samlet seg i spiralmønstre på frontruten før de ble pisket bort av vindusviskerne. Ved siden av henne satt Thomas, hans knokler hvite rundt rattet, mens han prøvde å holde bilen stødig på den glatte veien.
 
 I baksetet satt Leon med den lysende steinen i fanget, dens puls synkronisert med hans åndedrett. Han hadde ikke sovet på tre dager, ikke siden angrepet i kafeen. Men han var ikke trøtt – hans øyne var klare og fokuserte, som om han så ting langt bortenfor snøstormen.
@@ -43,6 +45,8 @@ Leon nikket alvorlig. "Fordi skyggene kommer. De samler seg. De vil ha... noe. N
 
 "Ikke noe," korrigerte en kvinne med sølvfarget hår flettet i intrikate mønstre. "Noen. De vil ha deg, Leon. Og andre som deg. For første gang på tusen år er Skyggefolket desperate. Verden våkner, ser du. Flere og flere mennesker begynner å se gjennom illusjonene deres. Og du... du er katalysatoren."
 
+![A kindergarten classroom with a young boy sitting under a large window, colorful auras visible](/firefly/Firefly%20A%20kindergarten%20classroom%20with%20a%20young%20boy%20sitting%20under%20a%20large%20window,%20colorful%20auras%20visib%20(3).jpg)
+
 Maria grep Thomas's hånd. "Hva betyr det? Hva vil de med ham?"
 
 Elise tok ordet igjen. "Skyggefolket nærer seg på menneskers frykt, forvirring og smerte. I årtusener har de manipulert fra skyggene, skapt konflikter, spredt misforståelser. Men nå endrer verden seg. Bevisstheten øker. Og Leon... han ble født i det perfekte øyeblikket, da lys ble til mørke og tilbake til lys. Han er en bro mellom virkelighetene, og han kan ikke bare se dem – han kan påvirke dem."
@@ -78,6 +82,10 @@ Maria og Thomas så på sin sønn med nye øyne. I det svake lyset fra steinen k
 Leon gikk bort til det nærmeste vinduet og la hånden mot glasset. Utenfor hadde snøstormen stilnet, og de første stjernene tittet frem på himmelen. Men mellom stjernene kunne han se andre ting – mørke former som beveget seg, som samlet seg.
 
 "De kommer snart," sa han stille. "Men denne gangen er vi klare for dem." Han snudde seg mot Rådet. "Vis meg Ekhanas rom. Det er på tide å lære sannheten om hvem hun virkelig var."
+
+![A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes](/firefly/Firefly%20A%20collection%20of%20mystical%20symbols%20and%20motifs-%20spiraling%20shadows%20and%20light,%20ancient%20runes,%20pro.jpg)
+
+Veggene i den gamle hallen var dekket av de samme symbolene Leon hadde tegnet i alle år – spiraler og runer som danset mellom lys og skygge. Men her var de levende, pulserende med en indre glød som fikk dem til å se ut som de var risset inn i selve virkeligheten.
 
 ---
 

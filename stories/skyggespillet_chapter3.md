@@ -3,9 +3,13 @@
 
 ### Kapittel 3: Skyggenes Hvisken
 
+![An old Norwegian café interior with snow falling outside frosted windows, an elderly woman inside](/firefly/Firefly%20An%20old%20Norwegian%20café%20interior%20with%20snow%20falling%20outside%20frosted%20windows,%20an%20elderly%20woman%20i.jpg)
+
 Vinteren kom tidlig det året Leon fylte fem. Snøen falt tett og lydløst over Eikerdal, og med den kom skyggene – ikke de vanlige skyggene som snøtunge grener kastet i månelyset, men de andre. De som beveget seg mot vinden. De som hvisket.
 
 Det begynte med drømmene. Hver natt våknet Leon klokken 03:33, badet i kaldsvette, med de samme ordene på leppene: "De samler seg. De kommer." Maria og Thomas vekslet bekymrede blikk over frokostbordet mens deres sønn tegnet de samme mønstrene igjen og igjen – spiraler av mørke som slukte lysere spiraler.
+
+![A kindergarten classroom with a young boy sitting under a large window, colorful auras visible](/firefly/Firefly%20A%20kindergarten%20classroom%20with%20a%20young%20boy%20sitting%20under%20a%20large%20window,%20colorful%20auras%20visib%20(2).jpg)
 
 Anne-Marie hadde holdt sitt løfte om å kontakte kvinnen hun kjente. En uke etter det skjebnesvangre møtet i barnehagen, mottok Maria et håndskrevet brev uten returadresse. Alt det inneholdt var en dato, en tid, og en adresse til en kafé i nabobyen.
 
@@ -94,6 +98,8 @@ Maria åpnet munnen for å svare, men hvordan kunne hun forklare det hun hadde s
 Thomas så forvirret fra sin sønn til sin kone, men Maria kunne se at noe hadde endret seg i hans blikk. Kanskje var det måten skyggene i stuen beveget seg på, eller måten steinen i Leons hånd pulserte med et svakt, men umiskjennelig lys.
 
 Maria klemte fløyelsposen i lommen og visste at deres virkelige reise nettopp hadde begynt. For i det fjerne kunne hun høre det nå – hviskningen av skygger, sangen av lys, og mellom dem, løftet om en dans som ville forandre alt.
+
+![A child's bedroom at 3-33 AM, moonlight casting strange shadow patterns, spiral drawings](/firefly/Firefly%201.%20A%20child%20bedroom%20at%203-33%20AM,%20moonlight%20casting%20strange%20shadow%20patterns,%20spiral%20drawings%20%20(3).jpg)
 
 ---
 
