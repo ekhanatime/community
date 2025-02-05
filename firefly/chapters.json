@@ -27,6 +27,13 @@
             "image": "Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores (2).jpg",
             "file": "../stories/skyggespillet_chapter4.md",
             "quote": "I hver generasjon fødes noen få med Synet. Men styrken varierer. Noen ser bare glimt, andre ser mer. Leon... Leon ser alt."
+        },
+        {
+            "id": "chapter5",
+            "title": "Mellom Verdener",
+            "image": "Firefly An ancient library with floating lights and moving shadows, a young boy reading a mystical bo.jpg",
+            "file": "../stories/skyggespillet_chapter5.md",
+            "quote": "Uten skygger, intet lys. Uten mørke, ingen stjerner. Det handler ikke om å utslette Skyggefolket, men om å gjenopprette balansen."
         }
     ]
 }
