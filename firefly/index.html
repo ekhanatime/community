@@ -69,6 +69,14 @@
             padding: 2rem;
             border-radius: 10px;
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .chapter.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
 
         h1 {
@@ -90,6 +98,34 @@
 
         p {
             margin-bottom: 1rem;
+        }
+
+        .chapter-content {
+            padding: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .chapter-content p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .chapter-continue {
+            font-style: italic;
+            color: var(--accent-color);
+            text-align: right !important;
+            border-top: 1px solid #eee;
+            padding-top: 1rem;
+        }
+
+        .chapter-content p:first-of-type::first-letter {
+            font-size: 3.5rem;
+            float: left;
+            padding: 0.1em 0.1em 0 0;
+            color: var(--accent-color);
+            font-family: "Times New Roman", serif;
+            line-height: 0.8;
         }
 
         .navigation {
@@ -139,6 +175,31 @@
             border-radius: 10px;
             margin: 1rem 0;
         }
+
+        .progress-container {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 4px;
+            background: #f1f1f1;
+            z-index: 1000;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: var(--accent-color);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .chapter-quote {
+            font-style: italic;
+            color: var(--primary-color);
+            border-left: 3px solid var(--accent-color);
+            padding-left: 1rem;
+            margin: 2rem 0;
+            font-size: 1.2rem;
+        }
     </style>
 </head>
 <body>
@@ -148,6 +209,10 @@
         <a href="#chapter2">Kapittel 2</a>
         <a href="#chapter3">Kapittel 3</a>
     </nav>
+
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
 
     <div class="hero" id="title">
         <img src="Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores.jpg" alt="Skyggespillet Cover">
@@ -163,7 +228,15 @@
             <h2>Kapittel 1: Solformørkelsens Barn</h2>
             <img src="Firefly A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes, pro.jpg" alt="Chapter 1" class="chapter-image">
             <div class="chapter-content">
-                <!-- Chapter 1 content -->
+                <p>Klokken var 11:47 den augustmorgenen da mørket falt over den lille bygda Eikerdal. En total solformørkelse var i ferd med å inntreffe, et sjeldent fenomen som hadde trukket forskere og nysgjerrige fra hele landet. Men for Maria Nordmann var ikke mørket det mest bemerkelsesverdige den dagen – det var øyeblikket da hennes sønn kom til verden.</p>
+
+                <p>Fødselen hadde startet ved daggry, en lang og utmattende prosess som syntes å følge solens langsomme vandring over himmelen. Da formørkelsen nærmet seg sitt maksimum, kjente Maria at noe endret seg. Det var som om selve luften i rommet ble tettere, ladet med en merkelig energi som fikk hårene på armene hennes til å reise seg.</p>
+
+                <p>"Nå kommer han," hvisket jordmoren, en eldre kvinne med sølvgrått hår og øyne som syntes å skinne i det underlige halvmørket. "Han har ventet på dette øyeblikket."</p>
+
+                <p>I det totale mørket, akkurat idet månen fullstendig dekket solen, kom Leon til verden. Han ga ikke fra seg et skrik, som de fleste nyfødte. I stedet åpnet han øynene – øyne som var uvanlig klare og fokuserte for et nyfødt barn – og så direkte opp mot den formørkede solen gjennom vinduet.</p>
+
+                <p class="chapter-continue">Fortsetter...</p>
             </div>
         </div>
 
@@ -171,7 +244,15 @@
             <h2>Kapittel 2: De Første Ordene</h2>
             <img src="Firefly A kindergarten classroom with a young boy sitting under a large window, colorful auras visib.jpg" alt="Chapter 2" class="chapter-image">
             <div class="chapter-content">
-                <!-- Chapter 2 content -->
+                <p>Barnehagen Solstua lå i utkanten av Eikerdal, omgitt av gamle bjørketrær som hvisket sine hemmeligheter i vinden. Det var her, i en alder av fire år, at Leon første gang forsøkte å forklare det han så til andre enn sin mor.</p>
+
+                <p>Førskolelærer Anne-Marie hadde jobbet med barn i over tjue år, men hun hadde aldri møtt noen som Leon. Han var ikke som de andre barna – ikke på en problematisk måte, men på en måte som fikk henne til å føle seg både fascinert og litt urolig.</p>
+
+                <p>Det begynte en høstmorgen da de satt i samlingsstunden. Barna snakket om farger, og hver skulle fortelle om sin favorittfarge. Da turen kom til Leon, ble rommet stille.</p>
+
+                <p>"Jeg liker best den fargen som er rundt Anne-Marie nå," sa han og pekte mot et tilsynelatende tomt rom rundt hennes hode. "Den er som solnedgang og glede blandet sammen."</p>
+
+                <p class="chapter-continue">Fortsetter...</p>
             </div>
         </div>
 
@@ -179,12 +260,52 @@
             <h2>Kapittel 3: Skyggenes Hvisken</h2>
             <img src="Firefly An old Norwegian café interior with snow falling outside frosted windows, an elderly woman i.jpg" alt="Chapter 3" class="chapter-image">
             <div class="chapter-content">
-                <!-- Chapter 3 content -->
+                <p>Vinteren kom tidlig det året Leon fylte fem. Snøen falt tett og lydløst over Eikerdal, og med den kom skyggene – ikke de vanlige skyggene som snøtunge grener kastet i månelyset, men de andre. De som beveget seg mot vinden. De som hvisket.</p>
+
+                <p>Det begynte med drømmene. Hver natt våknet Leon klokken 03:33, badet i kaldsvette, med de samme ordene på leppene: "De samler seg. De kommer." Maria og Thomas vekslet bekymrede blikk over frokostbordet mens deres sønn tegnet de samme mønstrene igjen og igjen – spiraler av mørke som slukte lysere spiraler.</p>
+
+                <p>Anne-Marie hadde holdt sitt løfte om å kontakte kvinnen hun kjente. En uke etter det skjebnesvangre møtet i barnehagen, mottok Maria et håndskrevet brev uten returadresse. Alt det inneholdt var en dato, en tid, og en adresse til en kafé i nabobyen.</p>
+
+                <p class="chapter-continue">Fortsetter...</p>
             </div>
         </div>
     </div>
 
     <script>
+        // Progress bar
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.querySelector(".progress-bar").style.width = scrolled + "%";
+        };
+
+        // Chapter visibility
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        document.querySelectorAll('.chapter').forEach(chapter => {
+            observer.observe(chapter);
+        });
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('.navigation a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
         // Function to get random image from available images
         function getRandomImage(images) {
             return images[Math.floor(Math.random() * images.length)];
