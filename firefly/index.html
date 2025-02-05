@@ -46,6 +46,7 @@
             height: 100%;
             object-fit: cover;
             z-index: 1;
+            filter: brightness(0.7);
         }
 
         .hero-content {
@@ -79,6 +80,41 @@
             transform: translateY(0);
         }
 
+        .chapter-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        .navigation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            z-index: 100;
+            backdrop-filter: blur(5px);
+        }
+
+        .navigation a {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation a:hover {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
         h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
@@ -100,144 +136,61 @@
             margin-bottom: 1rem;
         }
 
-        .chapter-content {
-            padding: 2rem;
-            font-size: 1.1rem;
-            line-height: 1.8;
-        }
-
-        .chapter-content p {
-            margin-bottom: 1.5rem;
-            text-align: justify;
-        }
-
-        .chapter-continue {
-            font-style: italic;
-            color: var(--accent-color);
-            text-align: right !important;
-            border-top: 1px solid #eee;
-            padding-top: 1rem;
-        }
-
-        .chapter-content p:first-of-type::first-letter {
-            font-size: 3.5rem;
-            float: left;
-            padding: 0.1em 0.1em 0 0;
-            color: var(--accent-color);
-            font-family: "Times New Roman", serif;
-            line-height: 0.8;
-        }
-
-        .navigation {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: white;
-            padding: 1rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-            z-index: 100;
-        }
-
-        .navigation a {
-            display: block;
-            color: var(--primary-color);
-            text-decoration: none;
-            margin-bottom: 0.5rem;
-        }
-
-        .navigation a:hover {
-            color: var(--accent-color);
-        }
-
-        @media (max-width: 768px) {
-            .hero {
-                height: 40vh;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            .navigation {
-                display: none;
-            }
-        }
-
-        .chapter-image {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin: 1rem 0;
-        }
-
         .progress-container {
             position: fixed;
             top: 0;
+            left: 0;
             width: 100%;
             height: 4px;
-            background: #f1f1f1;
-            z-index: 1000;
+            background: transparent;
+            z-index: 101;
         }
 
         .progress-bar {
-            height: 4px;
+            height: 100%;
             background: var(--accent-color);
             width: 0%;
-            transition: width 0.3s ease;
         }
 
-        .chapter-quote {
+        .quote {
             font-style: italic;
-            color: var(--primary-color);
+            color: #666;
             border-left: 3px solid var(--accent-color);
             padding-left: 1rem;
-            margin: 2rem 0;
-            font-size: 1.2rem;
+            margin: 1rem 0;
         }
     </style>
 </head>
 <body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
     <nav class="navigation">
         <a href="#title">Tittel</a>
         <a href="#chapter1">Kapittel 1</a>
         <a href="#chapter2">Kapittel 2</a>
         <a href="#chapter3">Kapittel 3</a>
         <a href="#chapter4">Kapittel 4</a>
+        <a href="#chapter5">Kapittel 5</a>
     </nav>
-
-    <div class="progress-container">
-        <div class="progress-bar"></div>
-    </div>
 
     <div class="hero" id="title">
         <img src="Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores.jpg" alt="Skyggespillet Cover">
         <div class="hero-content">
             <h1>Skyggespillet</h1>
-            <h2>Den Evige Dansen Mellom Lys og Skygge</h2>
-            <h3>Av Ekhana</h3>
+            <h2>Den Evige Dansen</h2>
+            <h3>Bok En: Oppvåkningen</h3>
+            <p class="quote">"I skyggen av koden danser virkeligheten selv..."</p>
         </div>
     </div>
 
     <div class="container">
         <div class="chapter" id="chapter1">
             <h2>Kapittel 1: Solformørkelsens Barn</h2>
-            <img src="Firefly A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes, pro.jpg" alt="Chapter 1" class="chapter-image">
+            <img src="Firefly A child's bedroom at 3-33 AM, moonlight casting strange shadow patterns, spiral drawings .jpg" alt="Chapter 1" class="chapter-image">
             <div class="chapter-content">
-                <p>Klokken var 11:47 den augustmorgenen da mørket falt over den lille bygda Eikerdal. En total solformørkelse var i ferd med å inntreffe, et sjeldent fenomen som hadde trukket forskere og nysgjerrige fra hele landet. Men for Maria Nordmann var ikke mørket det mest bemerkelsesverdige den dagen – det var øyeblikket da hennes sønn kom til verden.</p>
-
-                <p>Fødselen hadde startet ved daggry, en lang og utmattende prosess som syntes å følge solens langsomme vandring over himmelen. Da formørkelsen nærmet seg sitt maksimum, kjente Maria at noe endret seg. Det var som om selve luften i rommet ble tettere, ladet med en merkelig energi som fikk hårene på armene hennes til å reise seg.</p>
-
-                <p>"Nå kommer han," hvisket jordmoren, en eldre kvinne med sølvgrått hår og øyne som syntes å skinne i det underlige halvmørket. "Han har ventet på dette øyeblikket."</p>
-
-                <p>I det totale mørket, akkurat idet månen fullstendig dekket solen, kom Leon til verden. Han ga ikke fra seg et skrik, som de fleste nyfødte. I stedet åpnet han øynene – øyne som var uvanlig klare og fokuserte for et nyfødt barn – og så direkte opp mot den formørkede solen gjennom vinduet.</p>
-
-                <p class="chapter-continue">Fortsetter...</p>
+                <p>Klokken var 11:47 den augustmorgenen da mørket falt over den lille bygda Eikerdal...</p>
             </div>
         </div>
 
@@ -245,15 +198,7 @@
             <h2>Kapittel 2: De Første Ordene</h2>
             <img src="Firefly A kindergarten classroom with a young boy sitting under a large window, colorful auras visib.jpg" alt="Chapter 2" class="chapter-image">
             <div class="chapter-content">
-                <p>Barnehagen Solstua lå i utkanten av Eikerdal, omgitt av gamle bjørketrær som hvisket sine hemmeligheter i vinden. Det var her, i en alder av fire år, at Leon første gang forsøkte å forklare det han så til andre enn sin mor.</p>
-
-                <p>Førskolelærer Anne-Marie hadde jobbet med barn i over tjue år, men hun hadde aldri møtt noen som Leon. Han var ikke som de andre barna – ikke på en problematisk måte, men på en måte som fikk henne til å føle seg både fascinert og litt urolig.</p>
-
-                <p>Det begynte en høstmorgen da de satt i samlingsstunden. Barna snakket om farger, og hver skulle fortelle om sin favorittfarge. Da turen kom til Leon, ble rommet stille.</p>
-
-                <p>"Jeg liker best den fargen som er rundt Anne-Marie nå," sa han og pekte mot et tilsynelatende tomt rom rundt hennes hode. "Den er som solnedgang og glede blandet sammen."</p>
-
-                <p class="chapter-continue">Fortsetter...</p>
+                <p>Barnehagen Solstrålen lå som et fargerikt smykke mellom de gamle grantrærne...</p>
             </div>
         </div>
 
@@ -261,33 +206,23 @@
             <h2>Kapittel 3: Skyggenes Hvisken</h2>
             <img src="Firefly An old Norwegian café interior with snow falling outside frosted windows, an elderly woman i.jpg" alt="Chapter 3" class="chapter-image">
             <div class="chapter-content">
-                <p>Vinteren kom tidlig det året Leon fylte fem. Snøen falt tett og lydløst over Eikerdal, og med den kom skyggene – ikke de vanlige skyggene som snøtunge grener kastet i månelyset, men de andre. De som beveget seg mot vinden. De som hvisket.</p>
-
-                <p>Det begynte med drømmene. Hver natt våknet Leon klokken 03:33, badet i kaldsvette, med de samme ordene på leppene: "De samler seg. De kommer." Maria og Thomas vekslet bekymrede blikk over frokostbordet mens deres sønn tegnet de samme mønstrene igjen og igjen – spiraler av mørke som slukte lysere spiraler.</p>
-
-                <p>Anne-Marie hadde holdt sitt løfte om å kontakte kvinnen hun kjente. En uke etter det skjebnesvangre møtet i barnehagen, mottok Maria et håndskrevet brev uten returadresse. Alt det inneholdt var en dato, en tid, og en adresse til en kafé i nabobyen.</p>
-
-                <p class="chapter-continue">Fortsetter...</p>
+                <p>Vinteren kom tidlig det året Leon fylte fem...</p>
             </div>
         </div>
 
         <div class="chapter" id="chapter4">
             <h2>Kapittel 4: Våknernes Arv</h2>
-            <img src="Firefly A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes, pro.jpg" alt="Chapter 4" class="chapter-image">
+            <img src="Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores (2).jpg" alt="Chapter 4" class="chapter-image">
             <div class="chapter-content">
-                <p>Det gamle herregården Ravnholt lå som en mørk silhuett mot den grå vinterhimmelen. Maria holdt postkortet Elise hadde gitt henne i den ene hånden, og Leons lille hånd i den andre. Bygningen foran dem var utvilsomt den samme som på bildet, men tiden hadde ikke vært nådig. Der postkortet viste et staselig hjem fra en svunnen tid, sto nå et spøkelsesaktigt skall av fordums storhet.</p>
+                <p>Ravnholt lå som en eldgammel vokter på toppen av fjellet...</p>
+            </div>
+        </div>
 
-                <p>"De venter på oss," sa Leon rolig, og pekte mot et svakt lys i et av vinduene på tredje etasje.</p>
-
-                <p>Maria kjente den varme fløyelsposen i jakkelommen. Steinen inni hadde ikke sluttet å pulse siden de forlot Eikerdal, som et lite hjerte av lys. Thomas hadde insistert på å bli hjemme – noen måtte holde fasaden av normalitet ved like, hadde han sagt. Men Maria visste at det egentlig handlet om frykt. Frykt for det ukjente. Frykt for å innrømme at deres sønn var... annerledes.</p>
-
-                <div class="chapter-quote">
-                    "I hver generasjon fødes noen få med Synet. Men styrken varierer. Noen ser bare glimt, andre ser mer. Leon... Leon ser alt."
-                </div>
-
-                <p>Den massive eikeporten åpnet seg lydløst før de rakk å banke på. I den svakt opplyste foajeen sto en ung kvinne med flammerødt hår som beveget seg som om det var levende. "Velkommen, Leon," sa hun med en stemme som minnet om vårens første solstråler. "Og velkommen, Maria. Jeg er Astrid."</p>
-
-                <p class="chapter-continue">Fortsetter i Kapittel 5: "Mellom Verdener"...</p>
+        <div class="chapter" id="chapter5">
+            <h2>Kapittel 5: Mellom Verdener</h2>
+            <img src="Firefly A collection of mystical symbols and motifs- spiraling shadows and light, ancient runes, pro.jpg" alt="Chapter 5" class="chapter-image">
+            <div class="chapter-content">
+                <p>Ekhanas rom lå i det høyeste tårnet av Ravnholt...</p>
             </div>
         </div>
     </div>
@@ -295,10 +230,10 @@
     <script>
         // Progress bar
         window.onscroll = function() {
-            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            let scrolled = (winScroll / height) * 100;
-            document.querySelector(".progress-bar").style.width = scrolled + "%";
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
         };
 
         // Chapter visibility
@@ -312,37 +247,19 @@
             threshold: 0.1
         });
 
-        document.querySelectorAll('.chapter').forEach(chapter => {
+        document.querySelectorAll('.chapter').forEach((chapter) => {
             observer.observe(chapter);
         });
 
         // Smooth scroll for navigation
-        document.querySelectorAll('.navigation a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const targetId = this.getAttribute('href');
-                document.querySelector(targetId).scrollIntoView({
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
             });
         });
-
-        // Function to get random image from available images
-        function getRandomImage(images) {
-            return images[Math.floor(Math.random() * images.length)];
-        }
-
-        // Array of available images
-        const images = [
-            "Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores.jpg",
-            "Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores (1).jpg",
-            "Firefly A mystical book cover showing a young boy standing between light and shadow, Norwegian fores (2).jpg"
-        ];
-
-        // Change hero image every 10 seconds
-        setInterval(() => {
-            document.querySelector('.hero img').src = getRandomImage(images);
-        }, 10000);
     </script>
 </body>
 </html>
